@@ -1,0 +1,52 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+.Main {
+    background-image: url('/body_background.jpg');
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+    background-color: #dddddd;
+    opacity: 0.5;
+    display: flex;
+    justify-content:center;
+}
+.navbar ul li {
+    display: inline;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: green;
+    padding: 30px;
+    
+}
+.navbar ul li .active {
+    background-color: rgb(35, 35, 35);
+    color: white;
+}
+.tooltip {
+    position: relative;
+}
+.tooltip .tooltip-img {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    visibility: hidden;
+}
+.tooltip:hover .tooltip-img {
+    visibility: visible;
+}
+
+
+
